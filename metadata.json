@@ -1,0 +1,6 @@
+{
+  "name": "Le Natural Cafe",
+  "description": "An immersive, luxury French-inspired darkwear coffee and dessert experience in Lusail, Qatar. Crafted with premium design by ICON CODE.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
