@@ -49,11 +49,14 @@ export const Header: React.FC = () => {
               {/* Backing visual depth */}
               <div className="absolute inset-0 rounded-full bg-luxgold/5 scale-110 blur-[2px] -z-1"></div>
             </motion.div>
-            <div className="flex flex-col">
-              <span className="text-xl font-bold tracking-[0.2em] text-white uppercase gold-glow">
-                LE NATURAL
+            <div className="flex flex-col leading-none" dir="ltr">
+              <span
+                className="font-script text-3xl text-white gold-glow"
+                style={{ lineHeight: 1 }}
+              >
+                Le Natural
               </span>
-              <span className="text-[9px] tracking-[0.4em] text-luxgold font-medium uppercase text-center md:text-left">
+              <span className="text-[9px] tracking-[0.4em] text-luxgold font-medium uppercase font-sans mt-1">
                 CAFÉ • LUSAIL
               </span>
             </div>
